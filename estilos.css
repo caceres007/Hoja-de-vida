@@ -1,0 +1,160 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Calibri;
+}
+
+body{
+  align-items: center;
+}
+.hoja{
+    background-color:white;
+    width: 60%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 10px 20%;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    border:outset;
+    max-width: 90%;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 8px 8px;
+}
+.datosPersonales{
+  margin: 20px 0px;
+  display: flex;
+  align-items: center;
+}
+.Subtitulo{
+
+  background-color: #000000;
+  border-radius: 50%;
+  color: white;
+  font-weight: 600;
+  font-family: Arial;
+  padding: 3px 7px;
+}
+
+.Subtitulo1{
+  background-color: #000000;
+  border-radius: 50px;
+  width: fit-content;
+  font-weight: 600;
+  color: white;
+  padding: 2px 30px;
+}
+
+.Subtitulo2{
+  background-color: #000000;
+  border-radius: 50px;
+  width: fit-content;
+  font-weight: 600;
+  color: white;
+  padding: 2px 30px;
+}
+
+.labelSubtitulo2{
+  background-color: #000000;
+  border-radius: 50px;
+  width: fit-content;
+  font-weight: 600;
+  color: white;
+  padding: 2px 12px;
+}
+
+.Subtitulo+ hr{
+  border-color: cyan;
+  width: 8px;
+  height: 1px;
+}
+#Dpersonales{
+  background-color: #f8fcfc;
+  margin: 15px 6.5%;
+  display: flex;
+  flex-direction: column;
+  width: 87%;
+  border: 1px solid black;
+  box-shadow: 4px 4px;
+}
+#Dpersonales .row{
+  display: flex;
+}
+
+#Dpersonales .box{
+  flex-grow: 1;
+  display: flex;
+  border-left: .1px solid black;
+  border-bottom: .1px solid black;
+  flex-direction: column;
+  padding: 1px 4px;
+
+}
+
+#Dpersonales .subbox{
+  display: flex;
+  align-items: center;
+}
+
+#Dpersonales .subbox1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#Dpersonales .subbox2{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#nacionalidadPais{
+  padding-left: 20%;
+}
+#Dpersonales .label{
+  font-style: italic;
+  font-size: 10pt;
+  font-weight: 400;
+}
+
+#Dpersonales .sublabel{
+  font-size: 9pt;
+  font-weight: 400;
+  margin: 0% 1%;
+}
+
+#Dpersonales input{
+  border: none;
+  background-color: transparent;
+  line-height: 180%;
+}
+
+#Dpersonales input.ipt2{
+  border-bottom: 1px solid black;
+  margin-bottom: 2%;
+}
+
+#Dpersonales input.ipt3{
+  border: 1px solid black;
+  margin-bottom: 2%;
+  margin-left: 7%;
+  width: 50%;
+  height: 18px;
+}
+
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
